@@ -20,7 +20,6 @@ services:
     platform: linux/x86_64
     image: mysql:5.7
     volumes:
-      - db_data:/var/lib/mysql
       - ./database.sql:/docker-entrypoint-initdb.d/database.sql
     restart: always
     ports:
@@ -44,17 +43,6 @@ services:
     environment:
       PMA_HOST: db
       MYSQL_ROOT_PASSWORD: password
-    networks:
-      - sisrancho-network
-
-  backup:
-    container_name: sisrancho-backup
-    image: appropriate/curl
-    depends_on:
-      - db
-    volumes:
-      - ./backups:/backups  # Pasta local onde os backups serão armazenados
-    entrypoint: ["/bin/sh", "-c", "echo '0 0 * * * mysqldump -h db -u root -ppassword sisrancho > /backups/sisrancho-$(date +\\%F).sql' | crontab - && crond -f"]
     networks:
       - sisrancho-network
 
