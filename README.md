@@ -25,8 +25,21 @@ docker compose up -d
 ```
 Acessar servidor em: http://localhost:8080 ou pelo IP do seu servidor
 
+### DEMO - USUÁRIO
+
+![demo](demo/image.png)
+
+![demo](demo/image2.png)
+
+![demo](demo/image3.png)
+
 Acessar PhpMyAdmin: http://localhost:8090
 
+### DEMO - ADMIN
+
+![demo](demo/image4.png)
+
+![demo](demo/image5.png)
 
 ## Sucesso do compose ✅
 ```bash
