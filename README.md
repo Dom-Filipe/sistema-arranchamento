@@ -1,5 +1,7 @@
 # Sistema de Arranchamento 9º B Com GE
 
+![demo](demo/image3.png)
+
 Esse é o sistema de arranchamento utilizado no 9º B Com GE. Não foi desenvolvido por mim, apenas refatorei, apliquei algumas melhorias e dockerizei.
 
 ## Fazer deploy
