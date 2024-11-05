@@ -9,7 +9,7 @@ TIMESTAMP=$(date +"%d-%m-%Y-%H-%M")
 BACKUP_FILE="sisrancho-backup-$TIMESTAMP.sql"
 
 # Executar o comando mysqldump dentro do contêiner e salvar o backup no host
-docker exec -it sisrancho-db mysqldump -u root -ppassword sisrancho > ./$BACKUP_FILE
+docker exec -it sisrancho-db mysqldump -u root -ppassword sisrancho > ./backup/$BACKUP_FILE
 
 # Mensagem de sucesso
 echo "Backup concluído com sucesso: $BACKUP_FILE"
