@@ -1,5 +1,7 @@
 #!/bin/bash
+caminho_do_projeto="/home/usuario/sistema-arranchamento"
 
+cd $caminho_do_projeto
 # Obter a data e hora atuais no formato DD-MM-AAAA-HH-MM
 TIMESTAMP=$(date +"%d-%m-%Y-%H-%M")
 
