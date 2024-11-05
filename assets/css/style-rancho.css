@@ -1,0 +1,50 @@
+body{
+	font-family: sans-serif;
+	background-image:url('../img/background.jpg');
+}
+
+.jumbotron {
+	height: auto;
+	min-height:85%;
+	overflow:hidden;
+	text-align: center;
+	width: 35rem;
+	border-radius: 0.5rem;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	margin: 4rem auto;
+	background-color: #fff;
+	padding: 2rem;
+}
+
+.container {
+	margin-top: 3rem;
+}
+
+.box input {
+	width: 100%;
+	margin-bottom: 1.4rem;
+	padding: 1rem;
+	background-color: #ecf2f4;
+	border-radius: 0.2rem;
+	border: none;
+}
+h2 {
+	margin-bottom: 3rem;
+	font-weight: bold;
+	color: #ababab;
+}
+.btn {
+	border-radius: 0.2rem;
+}
+
+.box {
+	margin-top: 3rem;
+	left: 0;
+	margin-bottom: 3rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
