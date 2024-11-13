@@ -48,6 +48,9 @@ services:
 
 networks:
   sisrancho-network:
+    name: sisrancho-network
+
 
 volumes:
   db_data:
+
