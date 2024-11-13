@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Administração - Rancho</title>
+	<title>Adm | Login</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="http://10.56.19.152/assets/font-awesome/css/all.min.css" media="print" onload="this.media='all'"/>
+	<link rel="icon" type="image/png" href="assets/img/logo_arranchamento.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel='stylesheet' href='../assets/css/bootstrap.css'>
 	<link rel="stylesheet" href="../assets/css/style-rancho.css">
 </head>
+<style>
+    @import url('https://fonts.cdnfonts.com/css/rawline');
+
+	body {
+    font-family: 'Rawline', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rawline', sans-serif;
+}
+</style>
 <body>
 	<div class="jumbotron">
 		<div class="container">

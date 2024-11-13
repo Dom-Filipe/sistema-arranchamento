@@ -30,9 +30,10 @@ if ($_SESSION['usuario']['id'] && is_numeric($_SESSION['usuario']['id'])) {
 <html>
 
 <head>
-	<title>Administração - Rancho</title>
+	<title>Adm | Dashboard</title>
 	<meta charset="utf-8">
-	<link rel='stylesheet' href='../assets/font-awesome/css/font-awesome.css'>
+	<link rel="icon" type="image/png" href="assets/img/logo_arranchamento.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel='stylesheet' href='../assets/css/bootstrap.css'>
 	<link rel="stylesheet" href="../assets/css/style.css">
 	<link rel="stylesheet" href="../assets/bootstrap-datepicker/dist/css/bootstrap-datepicker.css">
@@ -41,12 +42,22 @@ if ($_SESSION['usuario']['id'] && is_numeric($_SESSION['usuario']['id'])) {
 	<link rel="stylesheet" href="../assets/dataTables/datatables.css">
 
 </head>
+<style>
+    @import url('https://fonts.cdnfonts.com/css/rawline');
+
+	body {
+    font-family: 'Rawline', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rawline', sans-serif;
+}
+</style>
 
 <body>
 	<div class="container">
 		<div class="row">
 			<h2 class="text-center" style="padding-bottom: 10px;"> ADMINISTRAÇÃO </h2>
-			<h4 class="text-center" style="padding-bottom: 10px;">Arranchamento Online</h4>
 			<div style="width: 100%;" class="well well-sm">
 				<p><b>Usuário:</b> <?php print_r($usuario_logado['usuario']); ?></p>
 				<p><b>Cia:</b> <?php print_r($usuario_logado['companhia_desc']); ?></p>
