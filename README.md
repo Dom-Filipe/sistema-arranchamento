@@ -117,8 +117,6 @@ docker compose up -d
 
 # Estrutura do Banco de Dados
 
-![demo](demo\image6.png)
-
 ### Tabela: `cad_cia`
 
 Armazena informações sobre as companhias (CIA) cadastradas.
