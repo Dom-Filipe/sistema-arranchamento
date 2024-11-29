@@ -2,7 +2,7 @@
 			<div class="row">
 				<div class="col-sm-2">
 					<div class="row">
-						<img style="padding-bottom: 30px;" src="assets/img/logo.png" alt="logo-bcom" width=100 class="img-responsive center" />
+						<img style="padding-bottom: 30px;" src="assets/img/open-source.png" alt="logo" width=100 class="img-responsive center" />
 						<div class="list-group">
 							<!-- <a class="list-group-item" href="logout.php"><i class="fa fa-home"></i> Início</a> -->
 							<a class="list-group-item" href="#" data-toggle="modal" data-target="#login-modal"><i class="fa fa-user"></i> Login</a>

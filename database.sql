@@ -116,7 +116,7 @@ CREATE TABLE `cad_militar` (
 
 LOCK TABLES `cad_militar` WRITE;
 /*!40000 ALTER TABLE `cad_militar` DISABLE KEYS */;
-INSERT INTO `cad_militar` VALUES (6,'TEST USER','TESTE','111.111.111-11',14,3);
+INSERT INTO `cad_militar` VALUES (6,'TEST USER','TESTE','111.111.111-11',9,3);
 /*!40000 ALTER TABLE `cad_militar` ENABLE KEYS */;
 UNLOCK TABLES;
 
