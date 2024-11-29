@@ -99,7 +99,7 @@
 </div>
 
 <div class="well well-sm">
-    <h4 class="text-primary text-center"><i class="fas fa-utensils"></i> DIAS QUE ESTOU ARRANCHADO <i class="fa fa-calendar"></i></h4>
+    <h4 class="text-primary text-center"><i class="fas fa-utensils"></i> MEUS ARRANCHAMENTOS <i class="fa fa-calendar"></i></h4>
     <ul id="dias-arranchado-list" class="list-group">
         <!-- Os itens da lista serão adicionados aqui pelo JavaScript -->
     </ul>
