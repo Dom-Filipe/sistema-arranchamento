@@ -2,7 +2,7 @@
 
 Esse é o sistema de arranchamento utilizado na minha OM. Não foi desenvolvido por mim, apenas refatorei, apliquei algumas melhorias e dockerizei.
 
-![demo1](demo\demo1.png)
+![demo1](https://github.com/user-attachments/assets/63070748-28c8-4a1a-863e-9372f3d8faf2)
 
 ## Fazer deploy
 
@@ -31,11 +31,11 @@ docker compose up -d
 
 ### DEMO - USUÁRIO
 
-![demo2](demo\demo2.png)
+![demo2](https://github.com/user-attachments/assets/54e1d700-10d2-4841-82e7-f996f858faab)
 
 ### DEMO - ADMIN
 
-![demo3](demo\demo3.png)
+![demo3](https://github.com/user-attachments/assets/64fad5bb-b697-4ca2-a80a-a9263ffc37cf)
 
 ## Sucesso do compose ✅
 ```bash
