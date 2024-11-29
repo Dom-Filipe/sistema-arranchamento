@@ -1,6 +1,4 @@
-# Sistema de Arranchamento 9º B Com GE
-
-![demo](demo/image3.png)
+# Sistema de Arranchamento
 
 Esse é o sistema de arranchamento utilizado no 9º B Com GE. Não foi desenvolvido por mim, apenas refatorei, apliquei algumas melhorias e dockerizei.
 
@@ -31,17 +29,7 @@ docker compose up -d
 
 ### DEMO - USUÁRIO
 
-![demo](demo/image.png)
-
-![demo](demo/image2.png)
-
-![demo](demo/image3.png)
-
 ### DEMO - ADMIN
-
-![demo](demo/image4.png)
-
-![demo](demo/image5.png)
 
 ## Sucesso do compose ✅
 ```bash
