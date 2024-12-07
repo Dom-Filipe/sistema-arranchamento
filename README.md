@@ -1,5 +1,7 @@
 # Sistema de Arranchamento
 
+Video tutorial: https://www.youtube.com/watch?v=SNRwBrav5YQ
+
 Esse é o sistema de arranchamento utilizado na minha OM. Não foi desenvolvido por mim, apenas refatorei, apliquei algumas melhorias e dockerizei.
 
 ![demo1](https://github.com/user-attachments/assets/63070748-28c8-4a1a-863e-9372f3d8faf2)
