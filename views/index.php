@@ -1,4 +1,10 @@
-		<div class="container">
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Sistema de Arranchamento</title>
+</head>
+<div class="container">
 			<div class="row">
 				<div class="col-sm-2">
 					<div class="row">

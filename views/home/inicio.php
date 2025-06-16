@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
 <div class="well well-sm">
     <p <?php echo "id='".$usuario_logado['posto_id']."'";?>><strong>P/G: </strong><?php echo isset($usuario_logado['posto_desc']) ? $usuario_logado['posto_desc'] : "Anônimo"; ?></p>
     <p><strong>Nome Guerra:</strong> <?php echo isset($usuario_logado['nome_guerra']) ? $usuario_logado['nome_guerra'] : "Anônimo"; ?></p>
