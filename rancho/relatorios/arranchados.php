@@ -8,7 +8,7 @@ $pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8',
 
 // set document information
 $pdf->setCreator(PDF_CREATOR);
-$pdf->setAuthor('9º Batalhão de Comunicações e Guerra Eletrônica');
+$pdf->setAuthor('2º REGIMENTO DE CAVALARIA DE GUARDA');
 $pdf->setTitle('Arranchados');
 $pdf->setSubject('Data de impressão: '.date('d/m/Y'));
 
